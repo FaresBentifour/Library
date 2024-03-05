@@ -1,0 +1,103 @@
+/* Inputs.css */
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.containar_inputs {
+    width: 80%; /* Largeur de 80% de l'espace disponible */
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 15vw;
+  }
+  h1{
+    color: #1E275C;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+  }
+  
+
+  
+  .inputs input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 150%; /* Modifié pour occuper toute la largeur du parent */
+    border-radius: 8px ;
+    border: 1px solid rgba(30, 39, 92,0.4);
+    color: #699767;
+    transition: all 0.3s;
+}
+#title{
+    height: 20px;
+}
+#isbn{
+    height: 20px;
+}
+#pub_Date{
+    height: 20px;
+}
+#author{
+    height: 20px;
+}
+#publisher_N{
+    height: 20px;
+}
+
+#cover{
+    height: 30px;
+}
+#link_shop{
+    height: 30px;
+}
+ .inputs input:focus{
+     transform: scale(1.1);
+ }
+  
+  .inputs button {
+ 
+        width: 100%;
+        border: none;
+        padding: 4px;
+        border-radius: 20px;
+        cursor: pointer;/* si en mettre la souris sur le button  donc la forme de souris va pointer*/
+        background-color: #1E275C;
+        color: #fff;
+        transition: 0.5s;/* c'est le temps de separe les lattres*/
+        font-size: 16px;
+  }
+  
+  .inputs button:hover {
+    font-size: 18px;
+    background-color: #535C91;
+  }
+#description{
+    height: 65vh;
+    margin-top: 35px;
+    width: 225px;
+    border-radius: 15px;
+    border: 1px solid rgba(30, 39, 92,0.4);
+    text-align: center;
+}
+.desc_card{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+.card{
+    margin-top: 35px;
+    background: url('../src/img/coverB.jpg') center;
+    background-size: cover;
+    width: 225px;
+    height: 65vh;
+    border-radius: 15px;
+    border: 1px solid rgba(30, 39, 92,0.4);
+    
+}
