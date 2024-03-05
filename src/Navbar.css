@@ -1,69 +1,57 @@
-
-
 .navbar {
-    width: 13%;
-    height: 100vh;
-    background: rgb(51,45,156);
-    /* background: linear-gradient(90deg, rgba(51,45,156,1) 0%, rgba(3,1,43,1) 100%, rgba(0,212,255,1) 100%); */
-    /*background: linear-gradient(90deg, rgb(27, 26, 85) 0%, rgba(3,1,43,1) 100%, rgba(0,212,255,1) 100%);*/
-   /* background: rgb(35,28,158);*/
-    background: linear-gradient(90deg, rgba(35,28,158,1) 0%, rgba(3,1,43,1) 100%, rgba(0,212,255,1) 100%);
-    color: white;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-  }
-  
-  .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center; /* Centre le contenu horizontalement */
-  }
-
-  .admin {
-    align-self: center; /* Centre le texte "Admin" par rapport à "WELCOME" */
-    margin-top: -5px; 
+  width: 13%;
+  height: 100vh;
+  background: #2D3250; /* Noir */
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
-  
-  .links {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1;
-    justify-content: space-between;
-    transition: 0.5s;
-    gap: 30px;
-  }
-  
-  .links a {
-    width: 35vh; /* La largeur de chaque lien est égale à la largeur de la navbar */
-    height: 50px; /* Hauteur fixe pour chaque lien */
-    margin: 5px 0; /* Ajoute un espace égal en haut et en bas de chaque lien */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px; /* Ajoute un padding pour l'espacement interne */
-    /* border: 1px solid black; */
-    text-align: center; /* Centre le contenu horizontalement */
-    overflow: hidden; /* Masque le texte qui dépasse la hauteur spécifiée */
-    white-space: nowrap; /* Empêche le texte de passer à la ligne */
-    background-color: rgba(7, 15, 43,0.8);
-    font-size: 20px;
-    transition: 0.5s;
-  }
-  .links .logout {
-    margin-top: auto; /* Place le lien "LogOut" en bas de la barre de navigation */
-  }
-  
-  .links a:hover {
-    background-color: rgba(7, 15, 43,0);
-    color: #ccc;
-    transition: 0.5s;
-  }
-  
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Centre le contenu horizontalement */
+}
+
+.admin {
+  align-self: center; /* Centre le texte "Admin" par rapport à "WELCOME" */
+  margin-top: -5px;
+}
+
+.links {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+  transition: 0.5s;
+  gap: 100px;
+}
+
+.links a {
+  width: 14vw;
+  height: 50px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #7077A1; /* Gris foncé */
+  font-size: 20px;
+  transition: 0.5s;
+}
+.links .logout {
+  margin-top: auto; /* Place le lien "LogOut" en bas de la barre de navigation */
+}
+
+.links a:hover {
+  background-color: rgb(57, 52, 68); /* Violet foncé */
+  color: #ccc;
+}
